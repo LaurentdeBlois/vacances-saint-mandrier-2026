@@ -331,6 +331,10 @@
       margin-bottom: 0.2rem;
     }
     .event-card.gratuit .event-date { color: var(--vert); }
+    .event-card.calme { border-left-color: var(--vert); }
+    .event-card.calme .event-date { color: var(--vert); }
+    .event-card.vent-fort { border-left-color: var(--rouge); }
+    .event-card.vent-fort .event-date { color: var(--rouge); }
     .event-card .event-titre { font-weight: 700; font-size: 0.95rem; }
     .event-card .event-lieu { font-size: 0.8rem; color: var(--gris); margin-top: 0.1rem; }
     .event-card .event-desc { font-size: 0.83rem; margin-top: 0.3rem; line-height: 1.5; }
@@ -660,14 +664,59 @@
         <div class="tl-detail">Accueil sur place vers 15h · remise des clés · état des lieux d'entrée</div>
       </div>
       <div class="tl-item">
-        <div class="tl-date">2 → 15 août</div>
-        <div class="tl-title">Séjour — 14 nuits</div>
-        <div class="tl-detail">Profiter, se reposer, bronzer, canoë, plage ☀️</div>
+        <div class="tl-date">Lundi 3 août</div>
+        <div class="tl-title">🌙 Marché nocturne</div>
+        <div class="tl-detail">17h-23h, Parc Cravero, La Seyne-sur-Mer</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Mardi 4 août</div>
+        <div class="tl-title">🏛 Sortie Mont Faron</div>
+        <div class="tl-detail">Vent SE fort en journée : téléphérique l'après-midi, bateau + bus depuis Saint Mandrier</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Mercredi 5 août — aujourd'hui</div>
+        <div class="tl-title">🏄 Paddle</div>
+        <div class="tl-detail">Matin avant 11h : meilleure fenêtre de la semaine, vent quasi nul</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Jeudi 6 août</div>
+        <div class="tl-title">🏛 Musée national de la Marine + vieille ville de Toulon</div>
+        <div class="tl-detail">Coup de vent d'ouest toute la journée (25-52 km/h, mistral probable) : pas de paddle</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Vendredi 7 août</div>
+        <div class="tl-title">🏛 Gorges d'Ollioules</div>
+        <div class="tl-detail">Vent encore fort + canicule : sortie fraîcheur à l'intérieur des terres</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Samedi 8 août</div>
+        <div class="tl-title">🏄 Paddle</div>
+        <div class="tl-detail">Matin avant 10h-11h, vent modéré de sud · arrivée de Zoé</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Dimanche 9 août</div>
+        <div class="tl-title">🏄 Paddle</div>
+        <div class="tl-detail">Matin avant 10h-11h, vent modéré de sud</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Lundi 10 août</div>
+        <div class="tl-title">🏄 Paddle tôt le matin (à confirmer au réveil)</div>
+        <div class="tl-detail">Vent d'ouest qui remonte dans la journée · soir : marché nocturne Parc Cravero, La Seyne</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Mardi 11 → vendredi 14 août</div>
+        <div class="tl-title">❓ Paddle ou sortie — à confirmer J-3</div>
+        <div class="tl-detail">Prévisions pas encore fiables. Vide-greniers du village à partir du 12. Si vent défavorable le matin : Porquerolles/Port-Cros, calanques de Cassis/La Ciotat, Six-Fours et cap Sicié, Hyères ou Aix-en-Provence selon la journée disponible.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Samedi 15 août</div>
+        <div class="tl-title">🏄 Paddle le matin si vent favorable (à vérifier)</div>
+        <div class="tl-detail">Après-midi : show aérien Patrouille de France 16h30 · soir : feu d'artifice 22h, Mourillon</div>
       </div>
       <div class="tl-item">
         <div class="tl-date">Dimanche 16 août</div>
         <div class="tl-title">Départ</div>
-        <div class="tl-detail">Avant 11h · logement entièrement libéré · état des lieux de sortie</div>
+        <div class="tl-detail">Avant 11h · logement entièrement libéré · état des lieux de sortie · pas de fenêtre paddle réaliste</div>
       </div>
     </div>
   </section>
@@ -752,9 +801,39 @@
       </div>
       <div class="p-montant" style="color:var(--orange);">9,10 €</div>
     </div>
+    <div class="paiement-row">
+      <div class="p-left">
+        <span class="badge todo">À rembourser</span>
+        <div>
+          <div class="p-label">Sophie — Leclerc Quartier Léry</div>
+          <div class="p-date">02/08/2026 · courses, hors courses personnelles retirées</div>
+        </div>
+      </div>
+      <div class="p-montant" style="color:var(--orange);">56,74 €</div>
+    </div>
+    <div class="paiement-row">
+      <div class="p-left">
+        <span class="badge todo">À rembourser</span>
+        <div>
+          <div class="p-label">Laurent — Aux Pains des Pins</div>
+          <div class="p-date">04/08/2026 · carte Laurent et Anne</div>
+        </div>
+      </div>
+      <div class="p-montant" style="color:var(--orange);">21,00 €</div>
+    </div>
+    <div class="paiement-row">
+      <div class="p-left">
+        <span class="badge todo">À rembourser</span>
+        <div>
+          <div class="p-label">Anne — Transports en commun, Toulon</div>
+          <div class="p-date">05/08/2026 · ticket perdu, pas de justificatif</div>
+        </div>
+      </div>
+      <div class="p-montant" style="color:var(--orange);">70,00 €</div>
+    </div>
     <div class="paiement-total" style="margin-top:0.8rem;">
       <div><div class="label">Total dépenses sur place</div></div>
-      <div class="montant">9,10 €</div>
+      <div class="montant">156,84 €</div>
     </div>
   </section>
 
@@ -924,6 +1003,63 @@
 
       <div class="liste-section-title">🎒 Transport</div>
       <label class="liste-item"><input type="checkbox"> 2 sacs bateaux</label>
+    </div>
+
+    <h3 style="font-size:0.9rem; font-weight:700; color:var(--gris); text-transform:uppercase; letter-spacing:1px; margin:1.4rem 0 0.6rem;">🌬️ Planning météo — meilleurs créneaux</h3>
+    <p style="font-size:0.83rem; color:var(--gris); margin-bottom:0.8rem;">Vent quasi nul le matin avant la brise thermique, plus fort l'après-midi. Sources Windfinder / Météo-France, consultées le 4 août. Fiable jusqu'au 10 août, à revérifier ensuite.</p>
+
+    <div class="event-card vent-fort">
+      <div class="event-icon">🌬️</div>
+      <div class="event-body">
+        <div class="event-date">Mardi 4 août</div>
+        <div class="event-titre">Vent de SE fort en journée</div>
+        <div class="event-desc">Calme seulement à partir de 20h. Alerte orage jaune en cours : sortie du soir à confirmer selon la météo.</div>
+      </div>
+    </div>
+
+    <div class="event-card calme">
+      <div class="event-icon">⭐</div>
+      <div class="event-body">
+        <div class="event-date">Mercredi 5 août · avant 11h</div>
+        <div class="event-titre">Meilleure fenêtre de la semaine</div>
+        <div class="event-desc">Vent quasi nul jusqu'à 11h. Ensuite ça monte (SW puis W-NW le soir).</div>
+      </div>
+    </div>
+
+    <div class="event-card vent-fort">
+      <div class="event-icon">🌬️</div>
+      <div class="event-body">
+        <div class="event-date">Jeudi 6 & vendredi 7 août</div>
+        <div class="event-titre">Coup de vent d'ouest</div>
+        <div class="event-desc">25 à 52 km/h toute la journée (mistral probable). Pas de sortie prévue ces deux jours.</div>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <div class="event-icon">🌤️</div>
+      <div class="event-body">
+        <div class="event-date">Samedi 8 & dimanche 9 août · avant 10h-11h</div>
+        <div class="event-titre">Vent modéré de sud</div>
+        <div class="event-desc">10 à 27 km/h, jouable tôt le matin.</div>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <div class="event-icon">🌤️</div>
+      <div class="event-body">
+        <div class="event-date">Lundi 10 août · tôt le matin</div>
+        <div class="event-titre">Vent d'ouest qui remonte</div>
+        <div class="event-desc">19 à 44 km/h. Créneau à confirmer au réveil.</div>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <div class="event-icon">🔄</div>
+      <div class="event-body">
+        <div class="event-date">12 → 16 août</div>
+        <div class="event-titre">Prévisions pas encore fiables</div>
+        <div class="event-desc">À revérifier sur Windfinder 2-3 jours avant chaque sortie. Réflexe : viser les 2-3h après le lever du jour. Éviter l'après-midi du 15 août (show aérien + sardinade). Le 16, départ avant 11h : pas de fenêtre paddle réaliste.</div>
+      </div>
     </div>
   </section>
 
